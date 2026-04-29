@@ -265,25 +265,3 @@ height: 100%;
 
 
 
-
-.intro-photo {
-  float: right;
-  width: 300px;
-  max-width: 40%;
-  height: auto;
-  margin-left: 20px;
-  border-radius: 12px;
-}
-
-
-@media (max-width: 768px) {
-.intro-photo {
-float: none;
-display: block;
-margin: 0 auto 16px auto;
-width: 60%;
-max-width: 250px;
-
-
-
-}}
