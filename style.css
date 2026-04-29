@@ -262,12 +262,13 @@ height: 100%;
 
 
 @media (max-width: 768px) {
-    .pink-thumbs { flex-wrap: wrap; 
-justify-content: center;} 
+    .pink-thumbs { 
+        flex-direction: column; 
+       align-items: center;} 
 
     .pink-thumbs img {
-        width: 45%; 
-        max-width: 150px; 
+        width: 80%; 
+        max-width: 300px; 
         height: auto;
     }
 } 
