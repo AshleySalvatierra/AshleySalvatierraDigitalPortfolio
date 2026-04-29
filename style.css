@@ -203,3 +203,37 @@ fieldset {
 }
 
 
+
+.awards-table-container {overflow-x: auto; width: 100%;}
+
+.awards-table {width: 100%; 
+table-layout: fixed;
+border: 2px solid #7B3F52;
+border-collapse: collapse;
+margin: 0 auto;}
+
+.awards-table th, 
+.awards-table td {
+
+border: 2px solid #7B3F52;
+text-align: center;
+padding: 1em;
+word-wrap: break-word;
+white-space: normal;
+
+
+}
+
+.awards-table img {
+
+max-width: 100%;
+width: 120px;
+height: auto;
+
+
+
+}
+
+@media (max-width: 768px) {.awards-table th, 
+.awards-table td {padding: 0.5em;}}
+
