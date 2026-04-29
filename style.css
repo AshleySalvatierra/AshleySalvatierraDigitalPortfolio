@@ -262,3 +262,31 @@ height: 100%;
 
 }
 
+
+
+
+
+.intro-photo {
+  float: right;
+  width: 340px;
+  max-width: 40%;
+  height: auto;
+  margin-left: 20px;
+  border-radius: 12px;
+}
+
+
+@media (max-width: 768px) {
+.intro-photo {
+float: none;
+display: block;
+margin: 0 auto 16px auto;
+width: 70%;
+max-width: 320px;
+
+
+
+}
+
+
+}
