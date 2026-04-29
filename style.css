@@ -262,14 +262,15 @@ height: 100%;
 
 
 @media (max-width: 768px) {
-    .pink-thumbs {
+    .pink-thumbs { flex-wrap: wrap; 
 justify-content: center;} 
 
     .pink-thumbs img {
-        width: 100%; 
+        width: 45%; 
         max-width: 150px; 
-        height:auto;
-    }} 
+        height: auto;
+    }
+} 
 
 
 
